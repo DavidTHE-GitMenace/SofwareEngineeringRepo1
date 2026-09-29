@@ -31,7 +31,7 @@ public class Stove {
 	 */
 	public void displayStove() {
 		for (int i = 0; i < burners.size(); i++) {
-			
+			burners.get(i).display();
 		}
 	}
 	
